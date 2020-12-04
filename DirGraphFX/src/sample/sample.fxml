@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane fx:id="graph" onMouseClicked="#onGraphPressed" prefHeight="720.0" prefWidth="1100.0" style="-fx-border-color: black; -fx-background-color: silver;" />
+      <Button fx:id="start" layoutX="1117.0" layoutY="105.0" mnemonicParsing="false" onAction="#start" text="Start??" />
+      <TextField fx:id="first" layoutX="1117.0" layoutY="22.0" />
+      <TextField fx:id="second" layoutX="1117.0" layoutY="63.0" />
+      <Label fx:id="amount" layoutX="1117.0" layoutY="162.0" />
+      <Label fx:id="pathNumber" layoutX="1117.0" layoutY="180.0" />
+      <Label fx:id="pathLabel" layoutX="1117.0" layoutY="198.0" />
+      <Label fx:id="length" layoutX="1117.0" layoutY="216.0" />
+      <Button fx:id="next" layoutX="1117.0" layoutY="251.0" mnemonicParsing="false" onAction="#next" text="Next??" />
+   </children>
+</AnchorPane>
